@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --background-color: #fb923c;
+    --text-color:#4ade80;
+    --color:  #581c87;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+.container {
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hypotenuse-container {
+    width: 30%;
+    margin: auto;
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.formula {
+    text-align: center;
+    border: 2px solid var(--color);
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+#hypotenuse-btn {
+    background-color: var(--text-color);
+    color: var(--color);
+    font-weight: bolder;
+    border: 1px solid var(--color);
+    width: 20%;
+    margin: auto;
+    display: block;
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+nav {
+    background-color: var(--color);
+    padding: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+a {
+    color: var(--text-color);
+    padding: 0.7rem;
+    font-weight: bold;
+
+}
+
+.question-container {
+    border: 2px solid var(--color);
+    position: relative;
+    padding: 15px;
+}
+
+.triangle-container {
+    width: 100%;
+    margin: 1rem;
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#submit-answer-btn {
+    background-color: var(--text-color);
+    color: var(--color);
+    font-weight: bolder;
+    border: 1px solid var(--color);
+    width: 30%;
+    margin: auto;
+    display: block;
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+#is-triangle-btn {
+    background-color: var(--text-color);
+    color: var(--color);
+    font-weight: bolder;
+    border: 1px solid var(--color);
+    width: 30%;
+    margin: auto;
+    display: block;
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+hr {
+    border: transparent;
+}
+
+#angle1 {
+    width: 350px;
+    margin: auto;
+}
+
+#angle2 {
+    width: 350px;
+    margin: auto;
+}
+
+#angle3 {
+    width: 350px;
+    margin: auto;
+}
+
+.side-input {
+    width: 350px;
+    margin: auto;
+}

@@ -14,7 +14,7 @@ function calculateScore() {
         }
         index = index + 1;
     }
-    outputEl.innerText = "YAY! You scored " + score;
+    outputEl.innerText =  "You scored " + score;
 }
 
 submitAnswerBtn.addEventListener("click", calculateScore);
