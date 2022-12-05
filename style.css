@@ -28,10 +28,7 @@ body {
     width: 30%;
     margin: auto;
     display: block;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    padding-right: 1rem;
+    padding: 3rem;
 }
 
 .heading {
@@ -42,9 +39,9 @@ body {
 .formula {
     text-align: center;
     border: 2px solid var(--color);
-    width: 50%;
+    width: 30%;
     margin: auto;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 #hypotenuse-btn {
@@ -79,13 +76,15 @@ a {
 }
 
 .triangle-container {
-    width: 100%;
-    margin: 1rem;
+    width: 90%;
+    margin: auto;
     display: block;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    text-align: center;
+    font-size: large;
 }
 
 #submit-answer-btn {
@@ -93,11 +92,11 @@ a {
     color: var(--color);
     font-weight: bolder;
     border: 1px solid var(--color);
-    width: 30%;
+    width: 20%;
     margin: auto;
     display: block;
     border-radius: 0.2rem;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 #is-triangle-btn {
@@ -134,4 +133,17 @@ hr {
 .side-input {
     width: 350px;
     margin: auto;
+}
+
+#output-box {
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+#output {
+    text-align: center;
+    padding: 2rem;
+    font-size: large;
+    font-weight: bold;
 }
