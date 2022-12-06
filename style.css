@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --background-color: #fb923c;
+    --background-color: #cbd5e1;
     --text-color:#4ade80;
     --color:  #581c87;
 }
@@ -146,4 +146,32 @@ hr {
     padding: 2rem;
     font-size: large;
     font-weight: bold;
+}
+
+#base {
+    width: 350px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+#height {
+    width: 350px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.area-container {
+    text-align: center;
+}
+
+#area-btn {
+    padding: 1rem;
+    background-color: var(--text-color);
+    color: var(--color);
+    font-weight: bolder;
+    border: 1px solid var(--color);
+    width: 10%;
+    margin-top: 2rem;
 }

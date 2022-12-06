@@ -20,18 +20,21 @@
     <h3 class="formula">Area of triangle = 1/2 (base * height)</h3>
     <hr>
     <div class="area-container">
-        <label >base = </label>
-        <input type="number" class="side-input"/>
-        <hr>
-        <label >height = </label>
-        <input type="number" class="side-input"/>
+        <label>base = </label>
+        <input type="number" id="base"/>
+        <br>
+        <br>
+        <label>height = </label>
+        <input type="number" id="height"/>
+        <br>
+        <br>
+
+        <button id="area-btn">Calculate Area</button>
+        <br>
+        <br>
+
+        <div id="output"></div>
     </div>
-
-    <hr>
-
-    <button id="area-btn">Calculate Area</button>
-
-    <div id="output"></div>
 
     <script src="./area.js"></script>
 </body>
